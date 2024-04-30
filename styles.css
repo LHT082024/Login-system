@@ -1,3 +1,6 @@
+
+/*global styling */
+
 .section {
     min-height: 100vh;
     display: flex;
@@ -6,7 +9,7 @@
     align-items: center;
 }
 
-.step1 {
+.step {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,13 +17,23 @@
 
     height: 500px;
     width: 700px;
-    background-color: bisque;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonContainer {
     width: inherit;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
 
+.step1{
+    background-color: bisque;
+}
 
+.step2{
+    background-color: rgb(201, 143, 129);
 }
