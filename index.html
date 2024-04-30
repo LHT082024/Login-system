@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script>
+  <title>Login system</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <form>
+      <!--Få navn-->
+      <section class="section step1">
+        <label for="step1">write your name</label>
+        <input type="text" name="" id="step1">
+      </section>
+
+      <!--kontakt info-->
+      <section class="section">
+        <label for="step2">write your email</label>
+        <input type="email" name="step2" id="step2">
+      </section>
+
+      <!--skrive en beskjed-->
+      <section class="section">
+        <label for="step3">write a message</label>
+        <textarea name="step3" id="step3" cols="30" rows="10"></textarea>
+      </section>
+      
+      <!--takk for at du var med-->
+      <section class="section">
+        <h3>thank you for submitting forum</h3>
+      </section>
+    </form>
+  </main>
+</body>
 </html>
